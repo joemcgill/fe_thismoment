@@ -1,0 +1,217 @@
+/*
+THEME NAME: FE This Moment - Adapted from theme Modmat
+THEME URI: http://fundamentalelements.net
+DESCRIPTION: Theme for the Band Fundamental Elements
+VERSION: 1.0.0
+AUTHOR: Johnny Matthews 
+AUTHOR URI: http://jm.ci7y.com
+TAGS:
+*/
+
+
+/*
+	yellow: 	#fff300
+	grey:  		#394d52
+	beige: 		#fffbf7
+	darkgrey:	#1F2323
+*/
+
+/* start by resetting a couple of styles */
+ul, li, p, h1, h2, h3, h4, h5{ margin:0px; padding:0px; }
+img{ border:0px; margin:0px; padding:0px; }
+label{ display:block; }
+input{ margin-bottom:10px; }
+
+
+/* Section Styles */
+html{overflow:scroll;}
+/*div#wrapper{width:775px; margin:10px auto; background-color:#FFF; overflow:hidden; background-image:url('images/wrapperbg775.gif'); }*/
+div#wrapper{width:775px; margin:10px auto; background-color:#ffffff; overflow:hidden; background-image:none; }
+div#container{ float:left; width:100%; }
+div#content{ margin:0 400px 0 15px; width:355px; }
+div.sidebar{ color:#394d52; float:left; font-size:10px; overflow:hidden; }
+div#blurb-top{ color:#b1b1b1; float:left; overflow:hidden; margin:0 0 0 -388px; width:386px; height:60px; background-color:#181818; background-position:bottom left; border-right:1px solid #000;  }
+div#primary{ margin:4px 0 0 -325px!important; width:320px; }
+div#secondary{ margin:64px 0 0 -192px!important; width:190px; }
+div#footer{width:775px; margin:10px auto; background-color:#fffbf7; overflow:hidden; background-image:none; }
+
+/* Html Tag Styles */
+body{margin:-10px!important;padding-top:-10px; background-color: #1F2323!important; background-image:url('backgrounds/default-background.gif'); background-position:top; background-repeat:repeat-x; font-size:11px; padding: 0px; margin: 0px; font-family:Helvetica,Arial,sans-serif }     /*Verdana,"Lucida Grande",Tahoma,*/
+div.hentry p{ font-size:11px; margin-bottom:30px; }
+hr{ border-top: 0; border-left:0; border-right: 0; border-bottom: 1px solid #CCC; margin: 20px 0; }
+pre{ margin: 20px 0;padding:25px 15px;background-color:#eeeeee;border:1px dashed #FFCCCC;overflow:auto;font-size:11px;font-family:Helvetica, Arial;font-weight:normal; overflow: auto; width: 305px; }
+blockquote{ margin: 20px 0;	padding: 10px 10px 10px 35px;background: url('images/quote.gif') no-repeat;background-position: left center;background-color: #FFFFCC;border: 1px dashed #FFCCCC;font-style: italic; }
+blockquote p{ margin-bottom:0px!important; }
+ul, ol { margin: 0 0 0 25px; padding: 0px; }
+.entry-content ul, .entry-content ol{ margin: 20px 10px 20px 30px; }
+
+
+/* Link Styles */
+a:link{color: #6f5dfc;}
+a:hover{color: #6f5dfc;}
+a:visited{color: #6f5dfc;}
+div.sidebar a{color: #b1a7ff; text-decoration:none;}
+div.sidebar a:hover{color:#fff;}
+div.sidebar a:visited{color: #b1a7ff;}
+
+
+/* Generic Page Styles */
+.leftimg{float: left; margin-right: 6px; margin-bottom: 4px; clear: left;}
+.rightimg{float: right; margin-left: 6px; margin-bottom: 4px;}
+.reditalic{font-size: 15px; color: red; font-style: italic;}
+ul#link-ul{margin: 3px 0 0 5px;}
+ul#link-ul li{ padding-left: 20px; background-image: url('images/bullet.gif'); background-position: top left; background-repeat: no-repeat; list-style-type:none;}
+.subHead{font-size: 9px!important;}
+.nav-sep{color: #FFCC66;}
+img[align=left]{margin:0 10px 10px 0; border: 1px solid #454545; padding: 2px;}
+img[align=right]{margin:0 0 10px 10px; border: 1px solid #454545; padding: 2px;}
+img[align=center]{margin:0 10px 10px; border: 1px solid #454545; padding: 2px;}
+.clear{display:block;clear:left;}
+
+
+/* Headers */
+h1, h2, h3, h4, h5{ color: color:#394d52;}
+h1{font-size:30px; margin: 5px 0 15px 0; font-weight:bolder; text-transform:uppercase}
+h2{font-size:26px; margin: 5px 0 10px 0; font-weight:bolder; text-transform:uppercase ; }
+h3{font-size:22px; margin: 5px 0 10px 0; font-weight:normal; text-transform:uppercase}
+h4{font-size:18px; margin: 5px 0 7px 0; font-weight:normal;}
+h5{font-size:14px; margin: 5px 0 7px 0;}
+h1.blog-title, h2.blog-title{color: #fff; margin: 10px 0 7px 10px;font-size: 26px;}
+h1.blog-title a, h2.blog-title a{color: #fff; text-decoration: none;}
+h1.page-title{margin: 15px 0 10px 10px;font-size: 28px;color:#fff300}
+h1.entry-title{margin: 0 0 2px; color:#394d52;font-weight:100;letter-spacing: -1px}
+
+h1.entry-title-2{margin: 16px 0 2px; color:#394d52;font-weight:100;letter-spacing: -1px}
+h2.entry-title{margin: 0 0 8px;color:#394d52;font-weight:bold;letter-spacing: -1px}
+h1.entry-title a, h2.entry-title a, h1.page-title a{text-decoration: none; color:#394d52}
+h3.widgettitle, .sidebar h3{font-family: helvetica,arial; font-size: 14px; font-weight: normal; margin: 0 0 5px; color:#fff300;}
+.entry-title, h1.page-title{clear:both;}
+a h2{ color: #ff0;}
+h2.widgettitle, .sidebar h2{ margin-top: 16px; margin-bottom: 5px; }
+
+
+
+/* Page Header */
+div#header{text-align:left;height: 432px; background: url('headers/defaultheader.jpg') no-repeat right top; xbackground-color: #000; }
+div#header2{text-align:left;height: 150px; background: url('headers/header2.jpg') no-repeat right top; xbackground-color: #000; }
+
+div#blog-description{color: #FFF; margin: 0 0 0 15px;}
+
+
+/* Menu */
+div#access{background:#252526; background-image:url('images/menu.gif'); background-position: top; background-repeat:repeat-x;}
+div#menu{font-size:10px;width:771px;height:34px; border-right: 2px solid #000; border-left: 2px solid #000; overflow: hidden;}
+div#menu ul{height: 100%;margin-left:8px;}
+div#menu ul li a{font-weight:normal; text-decoration:none; color: #ddd; padding: 11px 15px 11px; margin:0px; display: block; border: 0px!important;}
+div#menu ul li{float:left; list-style:none;}
+li.current_page_item a{color: #ffcc66!important;}
+
+
+/* Sidebar */
+div.blurb-content{padding:10px;}
+div.blurb-content a{color: #FFF;}
+div.blurb-content img{margin-left: 30px;}
+div.sidebar input#s{width:7em;}
+div.sidebar ul{margin: 10px;}
+div.sidebar li{list-style: none; margin:0 0 7px; padding:0.1em;}
+div.sidebar li form{margin:0.2em 0 0;padding:0;}
+div.sidebar ul ul{margin:0 0 40px;}
+div.sidebar ul ul li{list-style:none; margin:0;}
+div.sidebar ul ul ul{margin:0 0 0 0.7em;}
+a.featured{border-bottom: 0px!important;}
+div.rightbar{padding: 20px 0!important;}
+div.sidebar-content{padding: 20px;}
+div.sidebar img{border: 1px solid #454545; padding: 1px; margin:0 4px 4px 0;}
+
+
+/* Main Content */
+div#content .hentry {margin:5px 0 0; padding: 6px;}
+div#content div.sticky {background-color:#f3f3f3;}
+body.single div#content .hentry{margin:0;}
+.top-meta { margin-bottom: 20px;}
+.comments-link{padding: 0 0 0 15px;background:url('images/comment.gif') left center no-repeat;}
+.chronodata{padding:0 0 0 15px;background:url('images/time.gif') left center no-repeat;}
+span.meta-sep { margin:0 2px; }
+.entry-content { color:#444444; line-height:1.8em; text-align:justify;}
+.bottom-meta { margin: 0; padding: 0;}
+div#nav-above{padding:10px 5px 5px;}
+div#nav-below div.nav-previous { margin: 20px 0; color: #ccc; }
+.alignleft,div.nav-previous{float: left;}
+.alignright,div.nav-next{float: right;}
+.navigation a{color:#aaa; text-decoration:none;}
+span.edit-page-link { padding:0 0 0 20px; font-size:0.4em; }
+
+
+/* Comments */
+div.form-label { margin:15px 0 5px; font-size:1.1em; }
+form#commentform p { margin:0 0 10px; }
+div.reply{margin:0 0 15px;}
+div.cancel-comment-reply{margin:5px 0 10px;}
+a.comment-reply-link{border:1px solid #eee; padding:2px 3px;}
+div.comments{padding: 10px; margin-bottom: 20px;}
+div.comments h4 { text-align:center!important; font-size:1.6em; font-weight:normal; letter-spacing:-1px; line-height:28px; color:#999; margin-bottom:10px; }
+div.comments h5 {font-size:1.5em;font-weight:normal;letter-spacing:-1px;margin-bottom:15px;text-align:left;}
+div.comments hr { border-top: 1px solid #ddd; border-bottom: 0px; border-left: 0px; border-right: 0px; margin: 20px 0;}
+div.navigation { margin: 10px 0; }
+.commentsrsslink{background:url('images/feed.png') left top no-repeat;padding:2px 0 2px 20px;margin-right:10px;height:16px;}
+.trackbacklink{background:url('images/arrow_refresh.png') left top no-repeat;padding:2px 0 2px 20px;height:16px;}
+.comments{margin-top:30px;}
+.commentsrsslink a, .trackbacklink a{color: #999;padding: 2px; text-decoration:none;}
+#commentlist{margin: 0;padding: 10px 0 20px;position: relative;}
+#commentlist ul.children li{margin:0 0 5px;}
+#commentlist li{margin:10px 0 30px;padding:10px 10px 5px;list-style:none;border:1px solid #EEE;}
+#commentlist li li{margin:10px 0 0;}
+#commentlist li .comment-content{padding: 5px 0;font-size: 1.2em;line-height: 1.8em;}
+.comment-content p, .comment-content ul, .comment-content ol, .comment-content div, .comment-content blockquote{margin: 13px 0;}
+#commentlist li .comment-meta{padding:2px 0 2px 20px;background:url('images/time.gif') left center no-repeat;display:block;}
+#commentlist li img{padding:0;border:none;}
+#commentlist li img.gravatar {float:right;margin:-5px 0 0;}
+#commentlist li .commentauthor{font-size:1.5em;font-weight:bold;letter-spacing:-1px;font-style:normal;}
+#commentlist li .counter{display:none;font:normal 1.5em  Helvetica,Arial,  Sans-Serif;color:#999;float:left;width:35px;}
+#commentlist li {background-color:white;}
+#commentlist li.byuser{background:#f6f7f8;}
+#commentlist li.bypostauthor{background:#eee;}
+#commentlist li.bypostauthor blockquote{color:#333;background:url('images/quote.png') no-repeat 10px 0;}
+#pinglist{font-size:1.2em;padding:0;margin:10px 0 10px;background:#f6f7f8;background-image:url('images/pingback.gif');background-repeat:no-repeat;background-position:center left;}
+#pinglist li{margin-left:40px;padding:7px 0;list-style:none;}
+#pinglist li small{font-size:0.8em;display:block;}
+#pinglist li .counter{display:none;}
+#pinglist li span.favatar img{margin-left:-25px;border:none;padding:0;float:left;}
+#pinglist li img{padding:0;border:none;}
+#pinglist li.hidden, #commentlist li.hidden{display:none;}
+#leavecomment, .comments #loading, #comments-closed-msg{text-align:center;margin:30px 0 20px!important;color:#ddd;font-size:2em;letter-spacing:-2px;}
+.comments #loading{margin-top:20px!important;}
+#comments-closed-msg{margin-bottom:40px !important;}
+#respond input{margin: 0 0 5px 0;}
+form#commentform span.required{color:red;}
+form#commentform,form#commentform p{padding:0;}
+input#author,input#email,input#url{width:50%;}
+input#author,input#email,input#url,textarea#comment{padding:0.2em;border:1px solid #999;}
+div.comments ol li{margin:0 0 3.5em;}
+textarea#comment{height:13em;margin:0 0 0.5em;overflow:auto;width:97%;}
+div#container input[type=submit]{font-size: 20px;}
+img.avatar { display:inline; float:left; border: 1px solid #333!important; margin: 2px 6px 0 0; }
+
+/* Footer */
+div#footer{text-align:center; xbackground:#252526; xborder-top: 1px solid #000; xborder-bottom: 2px solid #000; xborder-left: 2px solid #000; xborder-right: 2px solid #000; padding: 5px 0; color: #b1b1b1; width: 771px; xbackground-image: url('images/footer.gif'); xbackground-position: bottom; xbackground-repeat:repeat-x;}
+a.valid{background:transparent url('images/tick.png') no-repeat scroll 0pt 50%;padding:0pt 0pt 0pt 17px;}
+div#footer a{ text-decoration: none; color:#bbb; }
+div#footer a:hover{ text-decoration: underline; }
+div#footer .copyright{clear: left; padding-right: 0px; display: block; padding-bottom: 0px; margin: 0px; color: #8b8b8b; line-height: 30px; padding-top: 0px}
+
+/* 2.5+ & Theme Directory Requirements */
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignleft { float: left; }
+.alignright{ float: right; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption-dd { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright, div.alignright img { padding: 4px; margin: 0 0 2px 7px; display: inline; border: 1px solid #ccc; padding: 1px; }
+img.alignleft, div.alignleft img { padding: 4px; margin: 0 7px 2px 0; display: inline; border: 1px solid #ccc; padding: 1px; }
+.alignright { float: right; }
+.alignleft { float: left; }
+p.wp-caption-text { margin-bottom: 15px!important; font-style:italic; padding: 0 10px; color:#666; }
+
+
+//div.sidebar  img.socimg { padding-right:3px; }

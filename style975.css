@@ -1,0 +1,41 @@
+/* CSS Document */
+
+/*
+	yellow: 	#fff300
+	grey:  		#394d52
+	beige: 		#fffbf7
+	darkgrey:	#1F2323
+*/
+
+
+/*div#wrapper{width: 975px!important;background-image:url('images/wrapperbg975.gif')!important;}*/
+div#wrapper{width: 975px!important;background-image:none;}
+
+div#content{width: 555px!important;}
+div#content-wide{width: 936px!important; margin-left:auto; margin-right:auto}
+div#menu{width:971px!important;}
+div#footer{width:971px!important;}
+
+.indent{
+	padding-left:15px;
+}
+
+
+.authdata { 
+    font-family:Helvetica ,Arial;
+    font-size:18px!important;
+    color:#394d52;
+}
+.chronodata {
+    font-family:Helvetica ,Arial;
+    font-size:18px!important;
+    color:#394d52;		 
+}
+			 
+.mocha {
+	margin-top:-10px;
+	margin:0;
+	padding:0;
+}
+
+img {border:0px solid white!important; }
